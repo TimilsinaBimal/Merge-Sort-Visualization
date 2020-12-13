@@ -136,6 +136,6 @@ if __name__ == "__main__":
                     sort(arr, 0, len(arr)-1)
                     refill()
                 if key[pygame.K_g]:
-                    arr = generate_array(10, 50, 20)
+                    arr = generate_array(10, 55, 50)
                     arr_color = [PURPLE for _ in range(len(arr))]
                     refill()
